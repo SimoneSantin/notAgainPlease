@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "pdfjs-dist": "latest",
     "react": "latest",
     "react-dom": "latest"
   },

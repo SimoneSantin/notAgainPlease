@@ -6,6 +6,9 @@ function Popup() {
     <main>
       <h1>notAgainPlease</h1>
       <p>Your application profile will live here.</p>
+      <button type="button" onClick={() => chrome.runtime.openOptionsPage()}>
+        Open profile
+      </button>
     </main>
   );
 }
